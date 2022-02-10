@@ -1,2 +1,14 @@
+----- AULA 34 -----
 CMD
-mkdir - comando para criar pasta 
+mkdir - Comando para criar pasta.
+
+cd - Seleciona a pasta para modificar / abrir / mexer.
+
+code . - Abre a pasta atual (cd).
+
+----- AULA 38 -----
+var - Identificador padrão, a variável pode ser redelarado - seguido do nome da variável.
+
+let - Identifica uma variável, que não pode ser redeclarada, porém se chamada com outro valor no    decorrer do código ela pode aderir o novo valor.
+
+const - Declara uma variável constante que não pode ser mudada no decorrer do código.
