@@ -20,3 +20,5 @@ console.log(sobrenome, humorBom);
 
 const { endereco: { logradouro, numero, cep } } = pessoa
 console.log(logradouro, numero, cep);
+
+//Quando se está desestruturando o objeto se usa {chaves}
