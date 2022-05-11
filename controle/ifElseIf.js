@@ -19,7 +19,7 @@ const imprimirResultado = function(nota){
         console.log("Nota Inválida");
     }
 
-    console.log("Fim"); //Será impressa sempre ao fim de cada situação
+    console.log("Fim"); //Será impressa sempre ao fim de cada situação - Opcional
 }
 
 imprimirResultado(10)
