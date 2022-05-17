@@ -11,11 +11,11 @@ comparaComThis(global)
 comparaComThis(obj)
 
 let comparaComThisArrow = param => console.log(this === param)
-comparaComThis(global)
+comparaComThis(global) //aponta para o arrow no módulo corrente
 
-//para apontar para o arrow no módulo corrente
+
 comparaComThisArrow(module.exports)
 
-comparaComThisArrow = comparaComThisArrow.bind(obj) //não funciona, pois o this continua apontando para o objeto no qual a função foi escrita/ O this de uma função Arrow é associada ao contexto da rm que função foi escrita
+comparaComThisArrow = comparaComThisArrow.bind(obj) //não funciona, pois o this continua apontando para o objeto no qual a função foi escrita/ O this de uma função arrow é associado ao contexto em que função arrow foi escrita
 comparaComThisArrow(obj)
 comparaComThisArrow(module.exports)
