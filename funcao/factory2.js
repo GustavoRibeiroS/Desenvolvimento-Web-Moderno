@@ -1,6 +1,7 @@
-function criarProfuto() {
+function criarProduto(nome, preco){
     return{
-        nome:"Sabonete".
-        Preco: 7
-    }
+    nome, preco, desconto: 0.1
 }
+}
+console.log(criarProduto("Pomada", 23,))
+console.log(criarProduto("Notebook", 2399))
