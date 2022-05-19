@@ -1,11 +1,11 @@
-class Pessoa {
+/*class Pessoa {
     constructor (nome){
         this.nome = nome;
     }
     falar(){
         console.log(`Este é meu nome ${this.nome}`)
     }
-}
+}*/
 
 function Pessoa(nome) {
     this.nome = nome
