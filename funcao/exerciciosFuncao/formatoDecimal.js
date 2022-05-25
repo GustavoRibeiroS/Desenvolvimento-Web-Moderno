@@ -3,3 +3,5 @@ function formatoDecimal(resultadoSoma) {
     console.log(valorReal)
 }
 formatoDecimal(0.1 + 0.2)
+
+//05
