@@ -19,9 +19,9 @@ function cardapio(codigo,quantidade) {
     }
 }
 cardapio(100,2)
-cardapio(200,2)
-cardapio(300,2)
-cardapio(400,2)
-cardapio(500,2)
-cardapio(600,2)
+cardapio(200,4)
+cardapio(300,5)
+cardapio(400,3)
+cardapio(500,6)
+cardapio(600,1)
 cardapio(650,2)
