@@ -8,11 +8,11 @@ console.log(valores);
 
 console.log(valores.length); //número de elementos no array
 
-valores.push({id: 3}, false, null, "teste") //inserir no array
+/*valores.push({id: 3}, false, null, "teste") //inserir no array
 console.log(valores);
 
 console.log(valores.pop()); // pega o último valor do array e retira do array
 delete valores[0] // deletou o peimiro valor do array
 console.log(valores);
 
-console.log(typeof valores); // Array é um object
+console.log(typeof valores); // Array é um object*/
