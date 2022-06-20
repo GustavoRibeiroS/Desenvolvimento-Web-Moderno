@@ -13,7 +13,4 @@ function maiorMenor(vetor) {
 
 }
 const vetor = [10, -2, -7, 5, 7, 3, 1, 3, 11, 35, 20, 6, 9]
-console.log(maiorMenor(vetor)); 
-
-/*console.log(`Maior: ${maior} `);
-console.log(`Menor: ${menor}`);*/
+console.log(maiorMenor(vetor));
