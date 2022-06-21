@@ -7,6 +7,6 @@ function calcularMedia(vetor) {
     let media = soma/vetor.length
     console.log(`${media}`);
 }
-vetor = [1, 2, 3, 4, 5]
+const vetor = [1, 2, 3, 4, 5]
 
 calcularMedia(vetor)
