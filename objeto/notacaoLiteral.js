@@ -13,4 +13,16 @@ const obj3 = {}
 obj3[nomeAttr] = valorAttr
 console.log(obj3);
 
-const obj4 = {[]}
+const obj4 = {[nomeAttr] : valorAttr}
+
+console.log(obj4);
+
+const obj5 = {
+    funcao1 : function() {
+        // ...
+    }, 
+    funcao2(){ //forma mais curta de definir uma função em obj
+        // ...
+    }
+}
+console.log(obj5);
