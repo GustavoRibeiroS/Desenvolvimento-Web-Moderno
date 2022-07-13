@@ -1,6 +1,6 @@
 const sequencia = {
     _valor: 1,  // _ é uma convenção (uma variavel pretendida ser acessada apenas internamente)
-    get valor(/*como quer pegar o valor ão precisa de atributo*/) { return this._valor++ }, //pega o valor e gera um novo id.
+    get valor(/*como quer pegar o valor não precisa de atributo*/) { return this._valor++ }, //pega o valor e gera um novo id.
     set valor(valor){
         if(valor > this._valor){
             this._valor = valor
