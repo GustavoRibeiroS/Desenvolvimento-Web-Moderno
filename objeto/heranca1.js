@@ -8,9 +8,9 @@ const volvo = {
     velMax: 200
 }
 
-console.log(ferrari.__proto__); // .__proto__ (se a característica não for encontrada no objeto, busca no objeto pai com o comando .__proto__)
+console.log(ferrari.__proto__); // .__proto__ (se a característica não for encontrada no objeto, busca no objeto pai com o comando __proto__)
 console.log(ferrari.__proto__ === Object.prototype); 
-console.log(volvo.__proto__ === Object.prototype); // O atributo que referencia o protótipo de ferrari e volvo (__.proto__) representa o Object.prototype
+console.log(volvo.__proto__ === Object.prototype); // O atributo que referencia o protótipo de ferrari e volvo (__proto__) representa o Object.prototype
 console.log(Object.prototype.__proto__); //não há um protótipo mais alto do que o Object.prototype (pai)
 
 function meuObjeto() {}
