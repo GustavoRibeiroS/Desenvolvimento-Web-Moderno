@@ -1,13 +1,16 @@
+import java.util.Optional;
+
 public class main {
      public static void main(String[] args) {
 
-            int i = 10;
-    
-            double d = i;
-    
-            float f = d;
-    
-            long l = i;
-    
-         }
+      String input = "Let's Code";
+      String name = Optional.ofNullable(input)
+          .orElseGet(() -> getRandomName());
+      System.out.println(name);
+  }
+  private static String getRandomName() {
+      System.out.println("Providing a random name");
+      return "John Doe";
+         
+}
 }
